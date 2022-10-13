@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txtTela1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Vc esta na tela 1"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btTela1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTela1"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:width="200dp"
+
+        android:backgroundTint="@color/teal_700"
+        android:padding="10dp"
+
+        android:text="Ir para tela 2"
+
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imgTela1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btTela1"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+
+        app:srcCompat="@drawable/diamondsword"
+        />
+
+</RelativeLayout>
